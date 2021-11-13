@@ -1,0 +1,28 @@
+
+172.16.255.11
+A8:5B:78:05:82:A8config macfilter add A8:5B:78:05:82:A8 3 vlan207 'INTERNATIONAL BEAUTY SHOW 2919'
+MAC filter already exists - entry not created.
+
+
+(Javits-5508-1) 
+
+172.16.255.12
+A8:5B:78:05:82:A8config macfilter add A8:5B:78:05:82:A8 3 vlan207 'INTERNATIONAL BEAUTY SHOW 2919'
+MAC filter already exists - entry not created.
+
+
+(Javits-5508-2) 
+
+172.16.255.13
+A8:5B:78:05:82:A8config macfilter add A8:5B:78:05:82:A8 3 vlan207 'INTERNATIONAL BEAUTY SHOW 2919'
+MAC filter already exists - entry not created.
+
+
+(Javits-5508-3) 
+
+172.16.255.14
+A8:5B:78:05:82:A8config macfilter add A8:5B:78:05:82:A8 3 vlan207 'INTERNATIONAL BEAUTY SHOW 2919'
+MAC filter already exists - entry not created.
+
+
+(Javits-5508-4) 

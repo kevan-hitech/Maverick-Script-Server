@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block head %}
+    <title>Login</title>
+{% endblock %}
+
+{% block header %}
+    <h2>Login</h2>
+    <p>Sign in using your Javits AD.</p>
+<hr/>
+{% endblock %}
+
+{% block body %}
+    <form method="post">
+    {% csrf_token %}
+    {% if user.is_authenticated %}
+        <br>
+        <p>You're already logged in!</p>
+    {% else %}
+
+    {% if 'Authentication unsuccessful' in form.errors.as_text %}
+        <div class="alert alert-danger">
+            <strong>Incorrect!</strong> Please ensure username and password are correct.
+        </div>
+    {% endif %}
+            {% if 'Please enter a correct username and password. Note that both fields may be case-sensitive.' in form.errors.as_text %}
+        <div class="alert alert-danger">
+            <strong>Incorrect!</strong> Please ensure username and password are correct.
+        </div>
+    {% endif %}
+            <div class="form-group">
+            <label for="usr">Username:</label>
+            <input type="text" class="form-control"
+                   id={{ form.username }}
+            </div>
+            <div class="form-group">
+                <label for="usr">Password:</label>
+                <input type="password" class="form-control"
+                       id={{ form.password }}
+            </div>
+<!-- Modal Button -->
+<span data-toggle="modal"
+data-target="#myModal">
+<button type="submit" class="btn btn-primary"
+        id="dislikes"
+    onclick="disableClick()"
+        value="notThisValue">
+    Login
+</button><hr>
+</span>
+
+<!-- The Modal Start-->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+  <div class="modal-body">
+      <div class="d-flex align-items-center">
+          <strong>Logging in...</strong>
+          <div class="spinner-border ml-auto" role="status" aria-hidden="true">
+          </div></div></div></div></div></div>
+<!-- The Button Script-->
+<script>
+$(document).ready(function() {
+$('#dislikes').click(function() {
+$('body').css('pointer-events', 'none');
+$('body').css('user-select', 'none');
+$(this).text('Logging In...');
+})
+});
+</script>
+            <p>
+                <br>
+                <br>
+                <hr/>
+            <a href="/register" class="btn btn-light"
+               role="button">Click here to register your account.</a>
+            </p>
+        </form>
+
+    {% endif %}
+{% endblock %}

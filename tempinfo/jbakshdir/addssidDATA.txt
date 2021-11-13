@@ -1,0 +1,189 @@
+
+172.16.255.11
+
+config wlan radio 282 all
+
+
+(Javits-5508-1
+config wlan interface 282 vlan207
+
+
+(Javits-5508-1
+config wlan security wpa akm 802.1x disable 282
+
+
+(Javits-5508-1
+config wlan security wpa wpa2 ciphers aes enable 282
+
+
+(Javits-5508-1
+config wlan security wpa akm psk enable 282
+
+
+(Javits-5508-1
+config wlan security wpa akm psk set-key ascii 'Diamond$' 282
+
+
+(Javits-5508-1
+config wlan security wpa wpa2 enable 282
+
+ERROR: WLAN 282 is already in the requested state.
+
+(Javits-5508-1
+config wlan chd 282 disable
+
+
+(Javits-5508-1
+config wlan enable 282
+
+
+(Javits-5508-1
+config wlan apgroup interface-mapping add Hall-1B 282 vlan207
+
+
+(Javits-5508-1
+config wlan apgroup interface-mapping add Hall-1C 282 vlan207
+
+
+(Javits-5508-1
+172.16.255.12
+
+config wlan radio 282 all
+
+
+(Javits-5508-2
+config wlan interface 282 vlan207
+
+
+(Javits-5508-2
+config wlan security wpa akm 802.1x disable 282
+
+
+(Javits-5508-2
+config wlan security wpa wpa2 ciphers aes enable 282
+
+
+(Javits-5508-2
+config wlan security wpa akm psk enable 282
+
+
+(Javits-5508-2
+config wlan security wpa akm psk set-key ascii 'Diamond$' 282
+
+
+(Javits-5508-2
+config wlan security wpa wpa2 enable 282
+
+ERROR: WLAN 282 is already in the requested state.
+
+(Javits-5508-2
+config wlan chd 282 disable
+
+
+(Javits-5508-2
+config wlan enable 282
+
+
+(Javits-5508-2
+config wlan apgroup interface-mapping add Hall-1B 282 vlan207
+
+
+(Javits-5508-2
+config wlan apgroup interface-mapping add Hall-1C 282 vlan207
+
+
+(Javits-5508-2
+172.16.255.13
+
+config wlan radio 282 all
+
+
+(Javits-5508-3
+config wlan interface 282 vlan207
+
+
+(Javits-5508-3
+config wlan security wpa akm 802.1x disable 282
+
+
+(Javits-5508-3
+config wlan security wpa wpa2 ciphers aes enable 282
+
+
+(Javits-5508-3
+config wlan security wpa akm psk enable 282
+
+
+(Javits-5508-3
+config wlan security wpa akm psk set-key ascii 'Diamond$' 282
+
+
+(Javits-5508-3
+config wlan security wpa wpa2 enable 282
+
+ERROR: WLAN 282 is already in the requested state.
+
+(Javits-5508-3
+config wlan chd 282 disable
+
+
+(Javits-5508-3
+config wlan enable 282
+
+
+(Javits-5508-3
+config wlan apgroup interface-mapping add Hall-1B 282 vlan207
+
+
+(Javits-5508-3
+config wlan apgroup interface-mapping add Hall-1C 282 vlan207
+
+
+(Javits-5508-3
+172.16.255.14
+
+config wlan radio 282 all
+
+
+(Javits-5508-4
+config wlan interface 282 vlan207
+
+
+(Javits-5508-4
+config wlan security wpa akm 802.1x disable 282
+
+
+(Javits-5508-4
+config wlan security wpa wpa2 ciphers aes enable 282
+
+
+(Javits-5508-4
+config wlan security wpa akm psk enable 282
+
+
+(Javits-5508-4
+config wlan security wpa akm psk set-key ascii 'Diamond$' 282
+
+
+(Javits-5508-4
+config wlan security wpa wpa2 enable 282
+
+ERROR: WLAN 282 is already in the requested state.
+
+(Javits-5508-4
+config wlan chd 282 disable
+
+
+(Javits-5508-4
+config wlan enable 282
+
+
+(Javits-5508-4
+config wlan apgroup interface-mapping add Hall-1B 282 vlan207
+
+
+(Javits-5508-4
+config wlan apgroup interface-mapping add Hall-1C 282 vlan207
+
+
+(Javits-5508-4

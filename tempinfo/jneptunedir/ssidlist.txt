@@ -1,0 +1,31 @@
+
+172.16.255.11
+show wlan summary
+
+Number of WLANs.................................. 18
+
+WLAN ID  WLAN Profile Name / SSID                                                 Status    Interface Name        PMIPv6 Mobility
+-------  -----------------------------------------------------------------------  --------  --------------------  ---------------
+2        NYCCOC / NYCCOC                                                          Enabled   vlan208               none        
+3        @Wi-Fi in Booth 1.5Mbps / @Wi-Fi in Booth 1.5Mbps                        Enabled   vlan207               none        
+4        Javits Center / Javits Center                                            Enabled   vlan207               none        
+5        FBS / FBS                                                                Enabled   vlan2003              none        
+6        Amex Lounge / Amex Lounge                                                Enabled   vlan707               none        
+7        Guest_Chuck / Chuck                                                      Enabled   vlan207               none        
+8        Cultivated-Javit / Cultivated-Javit                                      Enabled   vlan2001              none        
+9        NYCCOC1 / NYCCOC1                                                        Enabled   vlan208               none        
+10       Ephemera / Ephemera                                                      Enabled   vlan207               none        
+11       @Wi-Fi in Booth 5Mbps / @Wi-Fi in Booth 5Mbps                            Enabled   vlan207               none        
+12       Javits_Guest / Javits_Guest                                              Disabled  vlan207               none        
+13       JavitsAV / JavitsAV                                                      Enabled   vlan162               none        
+17       @Javits Wi-Fi / @Javits Wi-Fi                                            Enabled   vlan205               none        
+24       JavitsBees / JavitsBees                                                  Enabled   vlan207               none        
+25       @ Jake / @ Jake                                                          Enabled   vlan207               none        
+30       JavitsTime / JavitsTime                                                  Enabled   vlan208               none        
+50       TimeLapse / TimeLapse                                                    Enabled   vlan207               none        
+463      test / test                                                              Enabled   vlan207               none        
+
+--More-- or (q
+
+(Javits-5508-1
+172.16.255.12
